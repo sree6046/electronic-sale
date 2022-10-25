@@ -12,14 +12,14 @@ import com.bindu.electronicsale.viewmodel.MobilesActivityViewModel
 
 
 class MobilesActivity : AppCompatActivity() {
-    private val TAG = "TelevisionsActivity"
+    private val TAG = "MobilesActivity"
     private lateinit var binding: ActivityMobilesBinding
     lateinit var viewModel: MobilesActivityViewModel
     val adapter = MobileAdapter()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_televisions)
+        setContentView(R.layout.activity_mobiles)
 
         binding = ActivityMobilesBinding.inflate(layoutInflater)
         setContentView(binding.root)

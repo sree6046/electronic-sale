@@ -15,7 +15,7 @@ import kotlinx.coroutines.withContext
 class MobilesActivityViewModel : ViewModel() {
 
     // LiveData
-    val televisionList = MutableLiveData<List<Mobile>>()
+    val mobileList = MutableLiveData<List<Mobile>>()
 
     private val dataRepository = DataRepository(TelevisionParsing(), MobileParsing())
 
@@ -25,9 +25,9 @@ class MobilesActivityViewModel : ViewModel() {
             {
                 dataRepository.getMobiles()
             }
-            televisionList.value = mobileData
+            mobileList.value = mobileData
         }
-        return televisionList
+        return mobileList
     }
 
 }

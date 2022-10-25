@@ -14,10 +14,6 @@ class DataRepository(
         return televisionApi.getTelevisions().televisions
     }
 
-    suspend fun getTelevision(): Television {
-        return televisionApi.getTelevision()
-    }
-
     suspend fun getMobiles(): List<Mobile> {
         return mobileApi.getMobiles().mobiles
     }

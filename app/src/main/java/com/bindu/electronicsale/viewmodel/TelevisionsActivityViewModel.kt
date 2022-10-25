@@ -15,28 +15,16 @@ import kotlinx.coroutines.withContext
 class TelevisionsActivityViewModel : ViewModel() {
 
     // LiveData
-    private val television = MutableLiveData<Television>()
     val televisionList = MutableLiveData<List<Television>>()
     private val dataRepository = DataRepository(TelevisionParsing(), MobileParsing())
 
-    fun getTelevision(): LiveData<Television> {
-        viewModelScope.launch {
-            val televisionData = withContext(Dispatchers.IO) {
-                dataRepository.getTelevision()
-            }
-            television.value = televisionData
-        }
-        return television
-    }
-
-
     fun getTelevisionList(): LiveData<List<Television>>{
         viewModelScope.launch{
-            val movieData = withContext(Dispatchers.IO)
+            val televisionData = withContext(Dispatchers.IO)
             {
                 dataRepository.getTelevisions()
             }
-            televisionList.value = movieData
+            televisionList.value = televisionData
         }
         return televisionList
     }

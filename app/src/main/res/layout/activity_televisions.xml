@@ -22,17 +22,6 @@
         android:layout_height="60dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:textColor="@color/white"
-            android:layout_marginRight="1dp"
-            android:background="@color/orange"
-            android:text="@string/continues"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:gravity="center"
-            android:layout_weight="1"/>
 
         <TextView
             android:layout_width="wrap_content"
