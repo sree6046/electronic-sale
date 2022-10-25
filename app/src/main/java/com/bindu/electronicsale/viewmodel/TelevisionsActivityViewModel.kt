@@ -4,25 +4,23 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.bindu.electronicsale.api.RetrofitBuilder
 import com.bindu.electronicsale.model.Television
-import com.bindu.electronicsale.source.DataRepository
-import com.bindu.electronicsale.source.ManualParsing
+import com.bindu.electronicsale.offlinedataprovider.MobileParsing
+import com.bindu.electronicsale.offlinedataprovider.TelevisionParsing
+import com.bindu.electronicsale.repository.DataRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-class MainActivityViewModel : ViewModel() {
+class TelevisionsActivityViewModel : ViewModel() {
 
     // LiveData
     private val television = MutableLiveData<Television>()
     val televisionList = MutableLiveData<List<Television>>()
-
-    private val dataRepository = DataRepository(ManualParsing())
-    //private val dataRepository = DataRepository(RetrofitBuilder.getService())
+    private val dataRepository = DataRepository(TelevisionParsing(), MobileParsing())
 
     fun getTelevision(): LiveData<Television> {
-        viewModelScope.launch{
+        viewModelScope.launch {
             val televisionData = withContext(Dispatchers.IO) {
                 dataRepository.getTelevision()
             }

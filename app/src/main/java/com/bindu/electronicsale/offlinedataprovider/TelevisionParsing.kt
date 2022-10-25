@@ -1,20 +1,20 @@
-package com.bindu.electronicsale.source
+package com.bindu.electronicsale.offlinedataprovider
 
-import com.bindu.electronicsale.api.TelevisionsApi
+import com.bindu.electronicsale.api.TelevisionsOfflineApi
 import com.bindu.electronicsale.model.Television
 import com.bindu.electronicsale.model.TelevisionObject
 
-class ManualParsing : TelevisionsApi
-{
+class TelevisionParsing : TelevisionsOfflineApi {
 
-    override suspend fun getTelevisions(): TelevisionObject
-    {
-        return TelevisionObject(listOf(
-            Television("Sony Bravia",
-                "Offering a complete cinematic experience " +
-                        "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
-                        "HD Ready LED Android Smart TV. It is said to be " +
-                        "India’s Smartest Android TV. HD-Ready display, " +
+    override suspend fun getTelevisions(): TelevisionObject {
+        return TelevisionObject(
+            listOf(
+                Television(
+                    "Sony Bravia",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
                         "cinematic quality sound, multiple ports ensure " +
                         "leading performance. Explore every detail " +
                         "in brilliant clarity, along with life-like colors " +
