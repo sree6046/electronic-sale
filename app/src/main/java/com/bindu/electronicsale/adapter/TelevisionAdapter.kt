@@ -23,7 +23,7 @@ class TelevisionAdapter : RecyclerView.Adapter<TelevisionViewHolder>() {
     override fun onBindViewHolder(holder: TelevisionViewHolder, position: Int) {
         val television = televisions[position]
         holder.binding.tvTitle.text = television.name
-        holder.binding.tvPrice.text = television.price.toString()
+        holder.binding.tvPrice.text = "INR " + television.price.toString()
 
     }
 

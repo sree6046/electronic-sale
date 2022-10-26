@@ -51,10 +51,121 @@ class TelevisionParsing : TelevisionsOfflineApi {
                             "and enhanced brightness. Uncover every detail" +
                             " with vivid colors and enhanced brightness. " +
                             "PatchWall comes with massive content. ",
-                2022,
-                32000.00)
+                    2022,
+                    32000.00
+                ),
 
-        )
+                Television(
+                    104, "Oneplus",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
+                            "cinematic quality sound, multiple ports ensure " +
+                            "leading performance. Explore every detail " +
+                            "in brilliant clarity, along with life-like colors " +
+                            "and enhanced brightness. Uncover every detail" +
+                            " with vivid colors and enhanced brightness. " +
+                            "PatchWall comes with massive content. ",
+                    2022,
+                    28000.00
+                ),
+
+                Television(
+                    105, "TCL",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
+                            "cinematic quality sound, multiple ports ensure " +
+                            "leading performance. Explore every detail " +
+                            "in brilliant clarity, along with life-like colors " +
+                            "and enhanced brightness. Uncover every detail" +
+                            " with vivid colors and enhanced brightness. " +
+                            "PatchWall comes with massive content. ",
+                    2021,
+                    17500.00
+                ),
+
+                Television(
+                    106, "Kodak",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
+                            "cinematic quality sound, multiple ports ensure " +
+                            "leading performance. Explore every detail " +
+                            "in brilliant clarity, along with life-like colors " +
+                            "and enhanced brightness. Uncover every detail" +
+                            " with vivid colors and enhanced brightness. " +
+                            "PatchWall comes with massive content. ",
+                    2021,
+                    21000.00
+                ),
+
+                Television(
+                    107, "Acer",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
+                            "cinematic quality sound, multiple ports ensure " +
+                            "leading performance. Explore every detail " +
+                            "in brilliant clarity, along with life-like colors " +
+                            "and enhanced brightness. Uncover every detail" +
+                            " with vivid colors and enhanced brightness. " +
+                            "PatchWall comes with massive content. ",
+                    2022,
+                    23500.00
+                ),
+
+                Television(
+                    108, "Hitachi",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
+                            "cinematic quality sound, multiple ports ensure " +
+                            "leading performance. Explore every detail " +
+                            "in brilliant clarity, along with life-like colors " +
+                            "and enhanced brightness. Uncover every detail" +
+                            " with vivid colors and enhanced brightness. " +
+                            "PatchWall comes with massive content. ",
+                    2022,
+                    19999.00
+                ),
+                Television(
+                    109, "Croma",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
+                            "cinematic quality sound, multiple ports ensure " +
+                            "leading performance. Explore every detail " +
+                            "in brilliant clarity, along with life-like colors " +
+                            "and enhanced brightness. Uncover every detail" +
+                            " with vivid colors and enhanced brightness. " +
+                            "PatchWall comes with massive content. ",
+                    2022,
+                    7500.00
+                ),
+                Television(
+                    110, "Hisense",
+                    "Offering a complete cinematic experience " +
+                            "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
+                            "HD Ready LED Android Smart TV. It is said to be " +
+                            "India’s Smartest Android TV. HD-Ready display, " +
+                            "cinematic quality sound, multiple ports ensure " +
+                            "leading performance. Explore every detail " +
+                            "in brilliant clarity, along with life-like colors " +
+                            "and enhanced brightness. Uncover every detail" +
+                            " with vivid colors and enhanced brightness. " +
+                            "PatchWall comes with massive content. ",
+                    2022,
+                    34900.00
+                )
+
+            )
         )
     }
 }

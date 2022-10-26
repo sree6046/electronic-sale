@@ -23,7 +23,7 @@ class MobileAdapter : RecyclerView.Adapter<MobileViewHolder>() {
     override fun onBindViewHolder(holder: MobileViewHolder, position: Int) {
         val mobile = mobiles[position]
         holder.binding.tvTitle.text = mobile.name
-        holder.binding.tvPrice.text = mobile.price.toString()
+        holder.binding.tvPrice.text = "INR " + mobile.price.toString()
 
     }
 

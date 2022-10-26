@@ -5,6 +5,8 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.bindu.electronicsale.R
 import com.bindu.electronicsale.adapter.MobileAdapter
 import com.bindu.electronicsale.databinding.ActivityMobilesBinding
@@ -21,11 +23,20 @@ class MobilesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mobiles)
 
+        title = "Mobiles"
+
         binding = ActivityMobilesBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         viewModel = ViewModelProvider(this).get(MobilesActivityViewModel::class.java)
         binding.recyclerView.adapter = adapter
+
+        binding.recyclerView.addItemDecoration(
+            DividerItemDecoration(
+                this@MobilesActivity,
+                LinearLayoutManager.VERTICAL
+            )
+        )
 
         viewModel.getMobileList().observe(this, Observer {
             Log.d(TAG, "onCreate: $it")
