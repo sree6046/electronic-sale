@@ -19,11 +19,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent">
 
 
         <TextView
+            android:id="@+id/add_to_cart"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textColor="@color/white"
@@ -33,7 +34,20 @@
             android:layout_marginLeft="1dp"
             android:textStyle="bold"
             android:gravity="center"
-            android:layout_weight="1"/>
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/go_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:gravity="center"
+            android:text="@string/go_to_cart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

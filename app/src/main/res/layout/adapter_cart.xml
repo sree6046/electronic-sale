@@ -15,18 +15,18 @@
         tools:ignore="MissingConstraints">
 
         <TextView
-            android:id="@+id/tvTitle"
+            android:id="@+id/tvTitlee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Title"
             android:textColor="@color/purple_500"
-            android:textStyle="bold"
             android:textSize="20sp"
+            android:textStyle="bold"
             app:layout_constraintLeft_toLeftOf="parent"
             tools:ignore="MissingConstraints" />
 
         <TextView
-            android:id="@+id/tvPrice"
+            android:id="@+id/tvPricee"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -40,10 +40,11 @@
     </LinearLayout>
 
 
-    <CheckBox
-        android:id="@+id/check_box"
+    <ImageView
+        android:id="@+id/deleteIv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:src="@drawable/delete_25"
         app:layout_constraintRight_toRightOf="parent"
         tools:ignore="MissingConstraints" />
 

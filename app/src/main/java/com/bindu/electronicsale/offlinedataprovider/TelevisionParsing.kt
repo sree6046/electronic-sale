@@ -6,11 +6,13 @@ import com.bindu.electronicsale.model.TelevisionObject
 
 class TelevisionParsing : TelevisionsOfflineApi {
 
+
     override suspend fun getTelevisions(): TelevisionObject {
+
         return TelevisionObject(
             listOf(
                 Television(
-                    101, "Sony Bravia",
+                    101, "tv", "Sony Bravia",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -25,7 +27,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                 45000.00),
 
                 Television(
-                    102, "Mi Tv",
+                    102, "tv", "Mi Tv",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -40,7 +42,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                 23000.00),
 
                 Television(
-                    103, "Samsung",
+                    103, "tv", "Samsung",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -56,7 +58,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                 ),
 
                 Television(
-                    104, "Oneplus",
+                    104, "tv", "Oneplus",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -72,7 +74,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                 ),
 
                 Television(
-                    105, "TCL",
+                    105, "tv", "TCL",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -88,7 +90,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                 ),
 
                 Television(
-                    106, "Kodak",
+                    106, "tv", "Kodak",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -104,7 +106,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                 ),
 
                 Television(
-                    107, "Acer",
+                    107, "tv", "Acer",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -120,7 +122,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                 ),
 
                 Television(
-                    108, "Hitachi",
+                    108, "tv", "Hitachi",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -135,7 +137,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                     19999.00
                 ),
                 Television(
-                    109, "Croma",
+                    109, "tv", "Croma",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +
@@ -150,7 +152,7 @@ class TelevisionParsing : TelevisionsOfflineApi {
                     7500.00
                 ),
                 Television(
-                    110, "Hisense",
+                    110, "tv", "Hisense",
                     "Offering a complete cinematic experience " +
                             "at home you can buy Mi 4A/4C Pro 80cm (32 Inch) " +
                             "HD Ready LED Android Smart TV. It is said to be " +

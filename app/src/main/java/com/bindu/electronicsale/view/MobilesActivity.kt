@@ -38,6 +38,13 @@ class MobilesActivity : AppCompatActivity() {
             )
         )
 
+
+        binding.addToCart.setOnClickListener {
+
+
+        }
+
+
         viewModel.getMobileList().observe(this, Observer {
             Log.d(TAG, "onCreate: $it")
             adapter.setMobileList(it)

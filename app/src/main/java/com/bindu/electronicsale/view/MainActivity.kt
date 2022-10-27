@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.mycartBtn.setOnClickListener {
-            val intent = Intent(this, TelevisionsActivity::class.java)
+            val intent = Intent(this, CartActivity::class.java)
             startActivity(intent)
         }
 

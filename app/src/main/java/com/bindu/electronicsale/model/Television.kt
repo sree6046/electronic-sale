@@ -2,7 +2,8 @@ package com.bindu.electronicsale.model
 
 
 data class Television(
-    val id: Int,
+    val itemid: Int,
+    val type: String,
     val name: String,
     val description: String,
     val year: Int,

@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">ElectronicSale</string>
     <string name="continues">Continue</string>
-    <string name="add_to_cart">ADD TO CART</string>
+    <string name="add_to_cart">ADD CART</string>
+    <string name="go_to_cart">GO CART</string>
+    <string name="televsion_db">televtion_db</string>
+    <string name="mobile_db">mobile_db</string>
+    <string name="cart_db">cart_db</string>
+
 
 </resources>
